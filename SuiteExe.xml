@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Suite name="Mysuite">
+
+<parameter name="url" value="http://srssprojects.in/home.aspx"/>
+
+<test name="Sanity">
+<parameter name="browser" value="firefox"></parameter>
+<Classes>
+<class name="com.pack.com.ranford.TestExecution">
+<methods>
+<include name="Verifylogin()"></include>
+</methods>
+</class>
+</Classes>
+</test>
+
+
+
+</Suite>
